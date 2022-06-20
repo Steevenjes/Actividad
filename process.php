@@ -104,6 +104,7 @@ function request($items, $total,$iva,$totaTarifa12,$totalBase0,$email, $primer_n
 		"&risk.parameters[USER_DATA2]=DATAFAST".
 		"&customParameters[SHOPPER_VERSIONDF]=2".
 		"&customParameters[".$merchterm."]=00810030070103910004012".$valueIva."05100817913101052012".$valueTotalBase0."053012".$valueTotalIva;
+	//.
 		
 	foreach ($items["cart"] as $c) {
 		
